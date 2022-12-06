@@ -17,13 +17,13 @@ function calculateProfitAndLoss(initial, quantity, current){
     if(initial != "" && quantity != "" && current != ""){
         if(initial > current){
             var loss = (initial - current) * quantity;
-            var lossPercentage = loss / quantity * 100;
+            var lossPercentage = (loss / initial) * 100;
             var message = `The loss is ${loss} and loss prcentage is ${lossPercentage}%`;
             showOutput(message);
         }
         else if(current > initial){
             var profit = (current - initial) * quantity;
-            var profitPercentage = profit / quantity * 100;
+            var profitPercentage = (profit / initial) * 100;
             var message = `The profit is ${profit} and profit prcentage is ${profitPercentage}%`;
             showOutput(message);
         }
