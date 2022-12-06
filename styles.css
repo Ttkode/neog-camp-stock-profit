@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Mono&display=swap');
+
+:root{
+    --primary-color: #060d15;
+    --secondary-color: #560d2b;
+    --profit-color: #e92c7c;
+    --loss-color: #f36b6f;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+h1{
+    display: block;
+    margin-top: 3%;
+}
+
+label{
+    display: block;
+    margin: auto;
+    margin-bottom: 1.5%;
+    font-size: x-large;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+    width: 20%;
+    padding: 1%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+#check-btn{ 
+    background-color: black;
+    color: var(--secondary-color);
+    border-color: black;
+    border-radius: 0.5rem;
+    margin: auto;
+    padding: 1%;
+    padding-right: 10%;
+    padding-left: 4%;
+    width: 7%;
+    font-family: 'Roboto Mono', monospace;
+
+}
+#output-div {
+    margin-top: 2%;
+    font-size: x-large;
+}
